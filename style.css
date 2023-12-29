@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid grey;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.color-flipper {
+  color: rgb(56, 139, 221);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  background-color: white;
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+div {
+  background-color: rgb(24, 24, 24);
+  height: 70px;
+  width: 40%;
+  text-align: center;
+  color: whitesmoke;
+}
